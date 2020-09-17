@@ -1,0 +1,53 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "recipe ingredients",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "IngredientIntent",
+                    "slots": [
+                        {
+                            "name": "Ingredient",
+                            "type": "Ingredient"
+                        }
+                    ],
+                    "samples": [
+                        "Add {Ingredient} to my ingredient list"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Ingredient",
+                    "valueSupplier": {
+                        "type": "CatalogValueSupplier",
+                        "valueCatalog": {
+                            "catalogId": "REPLACE-WITH-YOUR-CATALOG-ID",
+                            "version": "1"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,11 +1,6 @@
-## My Project
+## Reference-based Catalog Management Skill
 
-TODO: Fill this README out!
-
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
+This recipe provides a sample interaction model and supporting files for a Recipe Skill that uses a reference-based catalog for ingredients, based on a new blog post, coming soon.
 
 ## Security
 
